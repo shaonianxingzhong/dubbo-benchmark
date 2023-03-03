@@ -98,6 +98,7 @@ public class Client extends AbstractClient {
         int measurementIterations = Integer.valueOf(line.getOptionValue("measurementIterations", "3"));
         int measurementTime = Integer.valueOf(line.getOptionValue("measurementTime", "10"));
 
+        
         Options opt;
         ChainedOptionsBuilder optBuilder = new OptionsBuilder()
                 .include(Client.class.getSimpleName())
